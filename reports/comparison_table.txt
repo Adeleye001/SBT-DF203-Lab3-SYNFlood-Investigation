@@ -1,0 +1,10 @@
+=== COMPARISON: NORMAL vs SUSPICIOUS ===
+
+Indicator | Normal HTTP | Bounded Simulation | Supplied PCAP
+Initial SYN count | 1 | 4 | 4
+SYN-ACK count | 1 | 4 | 0
+Completed handshakes | 1 | 0 | 0
+Unique source ports | 1 | 4 | 4
+HTTP request present | Yes | No | No
+RST packets | 0 | 4 | 0
+SYN packet size | ~74 bytes | ~74 bytes | 65054 bytes
